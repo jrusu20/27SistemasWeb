@@ -32,6 +32,10 @@ a.navbar-brand {
     height: 0px;
     width: 0px;
 }
+
+.cursoImage{
+    max-width:40%;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
