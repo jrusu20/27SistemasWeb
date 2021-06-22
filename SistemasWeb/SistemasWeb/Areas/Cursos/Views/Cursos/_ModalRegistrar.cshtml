@@ -1,40 +1,51 @@
 ﻿@model DataPaginador<TCursos>
-
-    <div class="modal fade" data-backdrop="static" id="modalRegistrar" tabindex="-1" role="dialog"
-         aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Agregar Curso</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <form method="post" class="formCurso" asp-area="Cursos" asp-controller="Cursos"asp-action="GetCurso">
-                    <div class="modal-body">
-                        <div class="form-horizontal">
-                            <center>
-                                <div class="col-md-5">
+<div class="modal fade" data-backdrop="static" id="modalRegistrar" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Agregar curso</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form method="post" class="formCurso" asp-area="Cursos" asp-controller="Cursos" asp-action="GetCurso">
+                <div class="modal-body">
+                    <div class="form-horizontal">
+                        <center>
+                            <div class="form-group">
+                                <div class=" col-md-5">
                                     <a class="thumbnail">
                                         <output id="cursoImage">
                                             <img src="~/Images/Logo.png" class="cursoImage" />
                                         </output>
                                     </a>
                                 </div>
-                             </div>
-                        <div class="form-group btn btn-success text-light">
-                            <label for="files">Cargar Foto</label>
-                            <div class="col-md-10">
-                                <input asp-for="AvatarImage" accept="image/*" class="file-input" type="file" id="files" />
                             </div>
-
-
+                            <div class="form-group btn btn-success text-light">
+                                <label for="files">Cargar foto</label>
+                                <div class="col-md-10">
+                                    <input asp-for="AvatarImage" accept="image/*" class="file-input" type="file" id="files">
+                                </div>
+                            </div>
+                        </center>
+                        <div class="form-group">
+                            <label asp-for="Input.Nombre" class="col-md-2 control-label"></label>
+                            <div class="col-md-10">
+                                <input asp-for="Input.Nombre" placeholder="Nombre" id="curNombre" class="form-control" />
+                                <span asp-validation-for="Input.Nombre" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Input.Descripcion" class="col-md-2 control-label"></label>
+                            <div class="col-md-10">
+                                <input asp-for="Input.Descripcion" id="curDescripcion" placeholder="Descripcion" class="form-control" />
+                                <span asp-validation-for="Input.Descripcion" class="text-danger"></span>
+                            </div>
                         </div>
                     </div>
-                </form>
-
-            </div>
-
+                </div>
+            </form>
         </div>
-
     </div>
+</div>

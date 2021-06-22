@@ -11,7 +11,9 @@ namespace SistemasWeb.Areas.Cursos.Models
     {
         [Key]
         public int CursoID { get; set; }
+        [Required(ErrorMessage = "El campo nombre es obligatorio.")]
         public string Nombre { get; set; }
+        [Required(ErrorMessage = "La descripcion es obligatorio.")]
         public string Descripcion { get; set; }
         public byte Horas { get; set; }
         public decimal Costo { get; set; }
