@@ -1,0 +1,154 @@
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.exe
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.deps.json
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.runtimeconfig.json
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.runtimeconfig.dev.json
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.pdb
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.Views.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.Views.pdb
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Remotion.Linq.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\System.Interactive.Async.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\System.Text.Encoding.CodePages.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.csproj.CoreCompileInputs.cache
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.RazorAssemblyInfo.cache
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.RazorAssemblyInfo.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.AssemblyInfoInputs.cache
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.AssemblyInfo.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.TagHelpers.input.cache
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.TagHelpers.output.cache
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.RazorCoreGenerate.cache
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.RazorTargetAssemblyInfo.cache
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.RazorTargetAssemblyInfo.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.Views.pdb
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.csproj.CopyComplete
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.pdb
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Principal\Views\Principal\Index.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Categorias\Views\_ViewImports.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.csprojAssemblyReference.cache
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Categorias\Views\Categorias\Categoria.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\staticwebassets\SistemasWeb.StaticWebAssets.Manifest.cache
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\staticwebassets\SistemasWeb.StaticWebAssets.xml
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.StaticWebAssets.xml
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Categorias\Views\Categorias\_ModalRegistrar.cshtml.g.cs
+C:\Users\AJpag\Downloads\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Categorias\Views\Categorias\_ModalEliminar.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.StaticWebAssets.xml
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.exe
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.deps.json
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.runtimeconfig.json
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.runtimeconfig.dev.json
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.pdb
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.Views.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\SistemasWeb.Views.pdb
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\Remotion.Linq.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\System.Interactive.Async.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.csprojAssemblyReference.cache
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.AssemblyInfoInputs.cache
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.AssemblyInfo.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.csproj.CoreCompileInputs.cache
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.RazorAssemblyInfo.cache
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.RazorAssemblyInfo.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\staticwebassets\SistemasWeb.StaticWebAssets.Manifest.cache
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\staticwebassets\SistemasWeb.StaticWebAssets.xml
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\scopedcss\bundle\SistemasWeb.styles.css
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.TagHelpers.input.cache
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.TagHelpers.output.cache
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.RazorCoreGenerate.cache
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Categorias\Views\Categorias\Categoria.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Categorias\Views\Categorias\_ModalEliminar.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Categorias\Views\Categorias\_ModalRegistrar.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Categorias\Views\_ViewImports.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Principal\Views\Principal\Index.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.RazorTargetAssemblyInfo.cache
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.RazorTargetAssemblyInfo.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.Views.pdb
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.csproj.CopyComplete
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.dll
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.pdb
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.genruntimeconfig.cache
