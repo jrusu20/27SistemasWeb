@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ namespace SistemasWeb.Models
         public int Registros { get; set; }
         public string Search { get; set; }
 
+        public IFormFile AvatarImage { get; set; }
         public string ErrorMessage { get; set; }
     }
 }

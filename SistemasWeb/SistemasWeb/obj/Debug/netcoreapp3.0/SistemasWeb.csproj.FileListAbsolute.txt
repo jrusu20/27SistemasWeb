@@ -225,3 +225,5 @@ C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netc
 C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Cursos\Views\Cursos\Cursos.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Cursos\Views\Cursos\_ViewImports.cshtml.g.cs
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Cursos\Views\Cursos\_ModalRegistrar.cshtml.g.cs
