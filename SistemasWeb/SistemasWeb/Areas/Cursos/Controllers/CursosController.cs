@@ -8,7 +8,7 @@ namespace SistemasWeb.Areas.Cursos.Controllers
 {
     public class CursosController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Cursos()
         {
             return View();
         }
