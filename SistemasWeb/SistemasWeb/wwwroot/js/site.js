@@ -4,8 +4,9 @@
 // Write your JavaScript code.
 var categorias = new Categorias();
 
-var curso = new Curso();
+var curso = new Cursos();
 var cursoImage = (evt) => {
+    alert();
     curso.archivo(evt,"cursoImage");
 }
 
