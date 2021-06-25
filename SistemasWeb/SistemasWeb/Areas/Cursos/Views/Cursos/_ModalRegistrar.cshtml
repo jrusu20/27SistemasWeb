@@ -51,10 +51,17 @@
                             </div>
                         </div>
                         <div class="form-group">
+                            <label asp-for="Input.Costo" class="col-md-2 control-label"></label>
+                            <div class="col-md-10">
+                                <input asp-for="Input.Costo" id="curCosto" placeholder="Costo" class="form-control" />
+                                <span asp-validation-for="Input.Costo" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label asp-for="Input.Estado" class="col-md-2 control-label"></label>
                             <div class="col-md-10">
-                                <input asp-for="Input.Estado" id="curHoras"  />
-                                
+                                <input asp-for="Input.Estado" id="curHoras" />
+
                             </div>
                         </div>
                         <span id="mensaje" class="text-danger"></span>

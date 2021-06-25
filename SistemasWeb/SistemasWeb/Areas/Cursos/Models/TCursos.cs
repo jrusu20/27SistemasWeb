@@ -16,6 +16,8 @@ namespace SistemasWeb.Areas.Cursos.Models
         [Required(ErrorMessage = "La descripcion es obligatorio.")]
         public string Descripcion { get; set; }
         public byte Horas { get; set; }
+         [Required(ErrorMessage = "El costo es obligatorio.")]
+         [RegularExpression(@"^[0-9]+([.][0-9]+)?$",ErrorMessage ="Ingrese un numero en el Costo")]
         public decimal Costo { get; set; }
         public Boolean Estado { get; set; }
         public int CategoriaID { get; set; }
