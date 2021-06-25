@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using SistemasWeb.Areas.Categorias.Models;
 using SistemasWeb.Data;
 
@@ -102,6 +103,22 @@ namespace SistemasWeb.Library
                 };
             }
             return identityError;
+        }
+
+        public List<SelectListItem> getTCategorias()
+        {
+            var _selectList = new List<SelectListItem>();
+            var categorias = _context._TCategoria.Where(c => c.Estado.Equals(true)).ToList();
+
+            foreach (var item in categorias)
+            {
+                _selectList.Add(new SelectListItem
+                {
+                    Text = item.Nombre,
+                    Value = item.CategoriaID.ToString(),
+                }) ;
+            }
+            return _selectList;
         }
     }
 }

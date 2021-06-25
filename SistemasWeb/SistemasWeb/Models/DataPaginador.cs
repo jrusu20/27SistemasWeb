@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,5 +18,8 @@ namespace SistemasWeb.Models
 
         public IFormFile AvatarImage { get; set; }
         public string ErrorMessage { get; set; }
+
+        public IEnumerable<SelectListItem> Categorias { get; set; }
+
     }
 }

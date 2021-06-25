@@ -6,7 +6,7 @@ var categorias = new Categorias();
 
 var curso = new Cursos();
 var cursoImage = (evt) => {
-    alert();
+
     curso.archivo(evt,"cursoImage");
 }
 
