@@ -10,7 +10,7 @@ class Principal {
         }
         switch (url) {
             case "CursosCursos":
-                alert(url);
+         
                 document.getElementById('files').addEventListener('change', cursoImage, false);
                 break;
         }

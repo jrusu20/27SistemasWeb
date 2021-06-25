@@ -78,21 +78,21 @@
                                 <div class="row">
                                     <label asp-for="Input.Categoria" class="col-md-2 control-label"></label>
                                     <div class="col-md-10">
-                                        @Html.DropDownListFor(x=>Model.Input.CategoriaID,
-                                       new SelectList(Model.Categorias,"Value","Text"),"Seleccione una Categoria",
-                                       htmlAttributes:new { @class="form-control",id="curCategoria"})
-                                     
+                                        @Html.DropDownListFor(x => Model.Input.CategoriaID,
+                                       new SelectList(Model.Categorias, "Value", "Text"), "Seleccione una Categoria",
+                                       htmlAttributes: new { @class = "form-control", id = "curCategoria" })
+                                        <span asp-validation-for="Input.CategoriaID" class="text-danger"></span>
                                     </div>
                                 </div>
                             </div>
                             <span id="mensaje" class=" text-danger"></span>
                             <input type="text" required class="hidenn" />
                         </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-                    <button type="submit" onclick="" class="btn btn-primary">Guardar</button>
-                </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                        <button type="submit" onclick="" class="btn btn-primary">Guardar</button>
+                    </div>
             </form>
         </div>
     </div>

@@ -20,6 +20,7 @@ namespace SistemasWeb.Areas.Cursos.Models
          [RegularExpression(@"^[0-9]+([.][0-9]+)?$",ErrorMessage ="Ingrese un numero en el Costo")]
         public decimal Costo { get; set; }
         public Boolean Estado { get; set; }
+        [Required(ErrorMessage = "Favor elegir una Categoria.")]
         public int CategoriaID { get; set; }
         public byte[] Image { get; set; }
         public TCategoria Categoria { get; set; }
