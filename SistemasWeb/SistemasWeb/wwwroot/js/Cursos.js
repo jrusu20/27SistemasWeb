@@ -13,6 +13,34 @@ class Cursos extends Uploadpicture {
         $.each($('input[type=file]')[0].files, (i, file) => {
             data.append('AvatarImage', file);
         });
+        $.ajax({
+            url: "GetCurso",
+            data: data,
+            cache: false,
+            contentType: false,
+            processData: false,
+            type: "POST",
+            success:(result)=> {
+                try {
+                    var item = JSON.parse(result)
+                    if (item.Code == "Done") {
+                        window.location.href = "Cursos";
+
+                    }
+                    else {
+                        document.getElementById("mensaje").innerHTML = item.Description;
+                    }
+
+                } catch (e) {
+                    document.getElementById("mensaje").innerHTML = result;
+
+                }
+
+                console.log(result);
+
+            }  
+
+        });
 
     }
 

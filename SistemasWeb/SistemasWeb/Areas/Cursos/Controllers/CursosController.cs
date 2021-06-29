@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using SistemasWeb.Areas.Cursos.Models;
 using SistemasWeb.Data;
 using SistemasWeb.Library;
@@ -13,6 +15,7 @@ namespace SistemasWeb.Areas.Cursos.Controllers
 {
     public class CursosController : Controller
     {
+        private LCursos _cursos;
         private  ApplicationDbContext context;
         private  SignInManager<IdentityUser> signInManager;
         private LCategorias _lCategorias;
@@ -21,11 +24,13 @@ namespace SistemasWeb.Areas.Cursos.Controllers
 
 
 
-        public CursosController(ApplicationDbContext _context,SignInManager<IdentityUser> _signInManager)
+        public CursosController(ApplicationDbContext _context,SignInManager<IdentityUser> _signInManager,
+            IWebHostEnvironment environment)
         {
             context = _context;
             signInManager = _signInManager;
             _lCategorias = new LCategorias(context);
+            _cursos = new LCursos(context, environment);
         }
 
         [Area("Cursos")]
@@ -45,6 +50,35 @@ namespace SistemasWeb.Areas.Cursos.Controllers
                 return Redirect("/Home/Index");
             }
        
+        }
+
+        [HttpPost]
+        public String GetCurso (DataPaginador<TCursos> model)
+        {
+            if (model.Input.Nombre !=null && model.Input.Descripcion !=null && model.Input.CategoriaID>0)
+            {
+                if (model.Input.Horas.Equals(0))
+                {
+                    return "Ingrese la cantidad de horas del curso";
+
+                }
+                else
+                {
+                    if (model.Input.Costo.Equals(0.00M))
+                    {
+                        return "Ingrese el costo del curso";
+                    }
+                    else
+                    {
+                        var data = _cursos.RegistrarCursoAsyn(model);
+                        return JsonConvert.SerializeObject(data.Result);
+                    }
+                }
+            }
+            else
+            {
+                return "Llene los campos requeridos";
+            }
         }
     }
 }
