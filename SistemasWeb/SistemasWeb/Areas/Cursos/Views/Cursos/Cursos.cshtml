@@ -63,8 +63,8 @@
                 item.Image.Length);
 
         <tr>
-            <td class="tdImagen">
-        <img class='img-fluid img-thumbnail circle' src="@image" />
+            <td class="tdImagen" width="100px">
+        <img class='img-fluid img-thumbnail rounded-circle' src="@image" />
             </td>
 
             <td>
@@ -74,8 +74,8 @@
                 @Html.DisplayFor(modelItem => item.Descripcion)
             </td>
             <td>
-                <form asp-area="Categorias" asp-controller="Categorias" asp-action="UpdateEstado" method="post">
-                    <input type="hidden" name="id" value="@item.CategoriaID">
+                <form asp-area="Cursos" asp-controller="Cursos" asp-action="UpdateEstado" method="post">
+                    <input type="hidden" name="id" value="@item.CursoID">
                     @if (item.Estado)
                     {
                         <input type="submit" class="btn-sm btn-success text-light" value="Activa" />

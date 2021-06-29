@@ -52,7 +52,7 @@ namespace SistemasWeb.Areas.Cursos.Controllers
                 {
                     objects[0] = "No hay datos que mostrar";
                     objects[1] = "No hay datos que mostrar";
-                    objects[3] = new List<TCursos>();
+                    objects[2] = new List<TCursos>();
                 }
 
                 models = new DataPaginador<TCursos>
@@ -63,6 +63,12 @@ namespace SistemasWeb.Areas.Cursos.Controllers
                    Categorias=_lCategorias.getTCategorias(),
                     Input=new TCursos()
                 };
+                if (identityError!=null)
+                {
+                    models.Pagi_info = identityError.Description;
+                    identityError = null;
+
+                }
                 return View(models);
             }
             else
@@ -99,6 +105,12 @@ namespace SistemasWeb.Areas.Cursos.Controllers
             {
                 return "Llene los campos requeridos";
             }
+        }
+        [HttpPost]
+        public IActionResult UpdateEstado (int id)
+        {
+            identityError = _cursos.UpdateEstado(id);
+            return Redirect("/Cursos/Cursos?area=Cursos");
         }
     }
 }

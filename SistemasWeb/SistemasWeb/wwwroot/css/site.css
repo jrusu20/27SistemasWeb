@@ -46,9 +46,7 @@ input[type="file"]{
     z-index:-1;
 }
 
-.tdImagen{
-    width:100px;
-}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -80,6 +78,11 @@ html {
 button.accept-policy {
     font-size: 1rem;
     line-height: inherit;
+}
+
+.tdImagen {
+    width: 20px;
+    height:10px;
 }
 
 /* Sticky footer styles

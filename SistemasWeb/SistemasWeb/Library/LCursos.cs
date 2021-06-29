@@ -71,5 +71,31 @@ namespace SistemasWeb.Library
             return listCursos;
             
         }
+
+        internal IdentityError UpdateEstado(int id)
+        {
+            IdentityError identityError;
+            try
+            {
+                var curso = context._TCursos.Where(c => c.CursoID.Equals(id)).
+                    ToList().ElementAt(0);
+                curso.Estado = curso.Estado ? false : true;
+                context.Update(curso);
+                context.SaveChanges();
+                identityError = new IdentityError { Description = "Done" };
+
+
+            }
+            catch (Exception e)
+            {
+
+                identityError = new IdentityError
+                {
+                    Code = "Error",
+                    Description = e.Message
+                };
+            }
+            return identityError;
+        }
     }
 }
