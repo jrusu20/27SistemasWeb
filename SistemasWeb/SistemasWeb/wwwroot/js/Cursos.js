@@ -43,5 +43,18 @@ class Cursos extends Uploadpicture {
         });
 
     }
+    EditCurso(curso, cat) {
+        let j = 1;
+        $("#curNombre").val(curso.Nombre);
+        $("#curDescripcion").val(curso.Descripcion);
+        $("#curHoras").val(curso.Horas);
+        $("#curCosto").val(curso.Costo);
+        $("#curEstado").prop("checked", curso.Estado);
+        $("#curCursoID").val(curso.CursoID);
+        this.Image = curso.Image;
+
+        //Jalando las propiedades del curso al Modal...
+
+    }
 
 }
