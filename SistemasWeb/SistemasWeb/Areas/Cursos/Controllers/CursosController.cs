@@ -34,13 +34,33 @@ namespace SistemasWeb.Areas.Cursos.Controllers
         }
 
         [Area("Cursos")]
-        public IActionResult Cursos()
+        public IActionResult Cursos(int id,String Search, int Registros)
         {
             if (signInManager.IsSignedIn(User))
             {
+                Object[] objects = new Object[3];
+                var data = _cursos.getTCursos(Search);
+
+                if (0<data.Count)
+                {
+                    var url = Request.Scheme + "://" + Request.Host.Value;
+                    objects = new LPaginador<TCursos>().paginador(data, id, Registros,
+                        "Cursos", "Cursos", "Cursos", url);
+
+                }
+                else
+                {
+                    objects[0] = "No hay datos que mostrar";
+                    objects[1] = "No hay datos que mostrar";
+                    objects[3] = new List<TCursos>();
+                }
+
                 models = new DataPaginador<TCursos>
                 {
-                    Categorias=_lCategorias.getTCategorias(),
+                   List=(List<TCursos>)objects[2],
+                   Pagi_info=(String)objects[0],
+                   Pagi_navegacion=(String)objects[1],
+                   Categorias=_lCategorias.getTCategorias(),
                     Input=new TCursos()
                 };
                 return View(models);

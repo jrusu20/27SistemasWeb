@@ -54,6 +54,22 @@ namespace SistemasWeb.Library
                 };
             }
             return identityError;
-        }   
+        }
+
+        internal List<TCursos> getTCursos(string search)
+        {
+            List<TCursos> listCursos;
+            if (search==null)
+            {
+                listCursos = context._TCursos.ToList();
+
+            }
+            else
+            {
+                listCursos = context._TCursos.Where(c=>c.Nombre.StartsWith(search)).ToList();
+            }
+            return listCursos;
+            
+        }
     }
 }
