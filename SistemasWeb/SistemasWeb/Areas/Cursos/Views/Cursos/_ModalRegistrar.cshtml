@@ -5,7 +5,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="myModalLabel">Agregar curso</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" onclick="curso.Restablecer()" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                        <button type="button"onclick="curso.Restablecer()" class="btn btn-default" data-dismiss="modal">Cancelar</button>
                         <button type="submit" onclick="curso.RegistrarCurso()" class="btn btn-primary">Guardar</button>
                     </div>
             </form>

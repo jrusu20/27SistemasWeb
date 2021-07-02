@@ -105,4 +105,15 @@ class Cursos extends Uploadpicture {
             }
         );
     }
+    Restablecer() {
+
+        $("#curNombre").val("");
+        $("#curDescripcion").val("");
+        $("#curHoras").val("");
+        $("#curCosto").val("");
+        $("#curEstado").prop("checked", false);
+        $("#curCursoID").val("");
+        document.getElementById("cursoImage").innerHTML = ['<img class="cursoImage" src="',
+            "/Images/Logo.png", '">'].join('');
+    }
 }
