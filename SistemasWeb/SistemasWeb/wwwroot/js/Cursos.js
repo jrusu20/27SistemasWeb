@@ -1,5 +1,12 @@
 ﻿
 class Cursos extends Uploadpicture {
+    constructor() {
+        super();
+        this.Image = null;
+        this.CursoID = 0;
+
+    }
+
 
     RegistrarCurso() {
 
@@ -44,6 +51,7 @@ class Cursos extends Uploadpicture {
 
     }
     EditCurso(curso, cat) {
+      
         let j = 1;
         $("#curNombre").val(curso.Nombre);
         $("#curDescripcion").val(curso.Descripcion);
@@ -53,8 +61,25 @@ class Cursos extends Uploadpicture {
         $("#curCursoID").val(curso.CursoID);
         this.Image = curso.Image;
 
-        //Jalando las propiedades del curso al Modal...
 
+        document.getElementById("cursoImage").innerHTML = "<img class='cursoImage' src='data:image/jpeg;base64," + curso.Image + "' />";
+        let x = document.getElementById("curCategoria");
+        x.options.length = 0;
+        for (var i = 0; i < cat.length; i++) {
+            if (cat[i].Value == curso.CategoriaID) {
+
+                x.options[0] = new Option(cat[i].Text, cat[i].Value);
+                x.selectedIndex = 0;
+                j = i;
+            } else {
+
+                x.options[i] = new Option(cat[i].Text, cat[i].Value);
+            }
+
+        }
+        x.options[j] = new Option(cat[0].Text, cat[0].Value);
+    
+        console.log(curso);
+        console.log(cat);
     }
-
 }
