@@ -112,5 +112,12 @@ namespace SistemasWeb.Areas.Cursos.Controllers
             identityError = _cursos.UpdateEstado(id);
             return Redirect("/Cursos/Cursos?area=Cursos");
         }
+
+        [HttpPost]
+        public String EliminarCurso(int CursoID)
+        {
+            identityError = _cursos.DeleteCurso(CursoID);
+            return JsonConvert.SerializeObject(identityError);
+        }
     }
 }

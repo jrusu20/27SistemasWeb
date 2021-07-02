@@ -28,19 +28,50 @@ namespace SistemasWeb.Library
             IdentityError identityError;
             try
             {
-                var imageByte = await _image.ByteAvatarImageAsync(model.AvatarImage, environment);
-                var curso = new TCursos
+                if (model.Input.CursoID.Equals(0))
                 {
-                    Nombre=model.Input.Nombre,
-                    Descripcion=model.Input.Descripcion,
-                    Horas=model.Input.Horas,
-                    Costo=model.Input.Costo,
-                    Estado=model.Input.Estado,
-                    Image=imageByte,
-                    CategoriaID=model.Input.CategoriaID
-                };
-                context.Add(curso);
-                context.SaveChanges();
+                    var imageByte = await _image.ByteAvatarImageAsync(model.AvatarImage, environment);
+                    var curso = new TCursos
+                    {
+                        Nombre = model.Input.Nombre,
+                        Descripcion = model.Input.Descripcion,
+                        Horas = model.Input.Horas,
+                        Costo = model.Input.Costo,
+                        Estado = model.Input.Estado,
+                        Image = imageByte,
+                        CategoriaID = model.Input.CategoriaID
+                    };
+                    context.Add(curso);
+                    context.SaveChanges();
+
+                }
+                else
+                {
+                    byte[] imageByte;
+                    if (model.AvatarImage!=null)
+                    {
+                        imageByte = await _image.ByteAvatarImageAsync(model.AvatarImage, environment);
+                    }
+                    else
+                    {
+                        imageByte = model.Input.Image;
+                    }
+                    var curso = new TCursos
+                    {
+                        CursoID = model.Input.CursoID,
+                        Nombre = model.Input.Nombre,
+                        Descripcion = model.Input.Descripcion,
+                        Horas = model.Input.Horas,
+                        Costo = model.Input.Costo,
+                        Estado = model.Input.Estado,
+                        Image = imageByte,
+                        CategoriaID = model.Input.CategoriaID
+                    };
+                    context.Update(curso);
+                    context.SaveChanges();
+
+                }
+                
                 identityError = new IdentityError { Code = "Done" };
 
 
@@ -84,6 +115,32 @@ namespace SistemasWeb.Library
                 context.SaveChanges();
                 identityError = new IdentityError { Description = "Done" };
 
+
+            }
+            catch (Exception e)
+            {
+
+                identityError = new IdentityError
+                {
+                    Code = "Error",
+                    Description = e.Message
+                };
+            }
+            return identityError;
+        }
+
+        internal IdentityError DeleteCurso(int cursoID)
+        {
+            IdentityError identityError;
+            try
+            {
+                var curso = new TCursos
+                {
+                    CursoID = cursoID
+                };
+                context.Remove(curso);
+                context.SaveChanges();
+                identityError = new IdentityError { Description = "Done" };
 
             }
             catch (Exception e)

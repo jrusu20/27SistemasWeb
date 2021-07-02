@@ -17,6 +17,9 @@ class Cursos extends Uploadpicture {
         data.append('Input.Costo', $('#curCosto').val());
         data.append('Input.Estado', $('#curEstado').val());
         data.append('Input.CategoriaID', $('#curCategoria').val());
+        data.append('Input.Image', this.Image); 
+        data.append('Input.CursoID', $('#curCursoID').val());
+
         $.each($('input[type=file]')[0].files, (i, file) => {
             data.append('AvatarImage', file);
         });
@@ -51,8 +54,9 @@ class Cursos extends Uploadpicture {
 
     }
     EditCurso(curso, cat) {
-      
+       
         let j = 1;
+
         $("#curNombre").val(curso.Nombre);
         $("#curDescripcion").val(curso.Descripcion);
         $("#curHoras").val(curso.Horas);
@@ -79,7 +83,26 @@ class Cursos extends Uploadpicture {
         }
         x.options[j] = new Option(cat[0].Text, cat[0].Value);
     
-        console.log(curso);
-        console.log(cat);
+
+    }
+    GetCurso(curso) {
+        document.getElementById("titleCurso").innerHTML = curso.Nombre;
+        this.CursoID = curso.CursoID;   
+   
+    }
+    EliminarCurso() {
+        $.post(
+            "EliminarCurso",
+            { CursoID:this.CursoID },
+            (response) => {
+                var item = JSON.parse(response);
+                if (item.Description == "Done") {
+                    window.location.href = "Cursos";
+                } else {
+                    document.getElementById("mensajeEliminar").innerHTML =
+                        item.Description;
+                }
+            }
+        );
     }
 }
