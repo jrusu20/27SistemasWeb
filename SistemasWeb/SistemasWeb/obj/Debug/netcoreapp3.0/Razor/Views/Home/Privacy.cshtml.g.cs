@@ -26,8 +26,15 @@ using SistemasWeb.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\Views\_ViewImports.cshtml"
+using SistemasWeb.Areas.Cursos.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"93519a1ce3c051743cfc3a7e9d14486c2b385f49", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c340bfc84512473cc1fe44b7556ba35daf1eaf08", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e63c954834aad6b9fde1493ef922cc240da4e323", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

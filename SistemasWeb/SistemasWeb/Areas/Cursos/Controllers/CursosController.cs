@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -34,6 +35,7 @@ namespace SistemasWeb.Areas.Cursos.Controllers
         }
 
         [Area("Cursos")]
+        [Authorize(Roles ="Admin")]
         public IActionResult Cursos(int id,String Search, int Registros)
         {
             if (signInManager.IsSignedIn(User))
@@ -79,6 +81,7 @@ namespace SistemasWeb.Areas.Cursos.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public String GetCurso (DataPaginador<TCursos> model)
         {
             if (model.Input.Nombre !=null && model.Input.Descripcion !=null && model.Input.CategoriaID>0)
@@ -107,6 +110,7 @@ namespace SistemasWeb.Areas.Cursos.Controllers
             }
         }
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public IActionResult UpdateEstado (int id)
         {
             identityError = _cursos.UpdateEstado(id);
@@ -114,6 +118,7 @@ namespace SistemasWeb.Areas.Cursos.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public String EliminarCurso(int CursoID)
         {
             identityError = _cursos.DeleteCurso(CursoID);
