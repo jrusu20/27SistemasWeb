@@ -134,7 +134,6 @@ C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netc
 C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Principal\Views\Principal\Index.cshtml.g.cs
 C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
@@ -228,3 +227,4 @@ C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netc
 C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Cursos\Views\Cursos\_ModalRegistrar.cshtml.g.cs
 C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Cursos\Views\Cursos\_ModalEliminar.cshtml.g.cs
 C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\SistemasWeb.csprojAssemblyReference.cache
+C:\Users\SOTEC JR\Downloads\27SistemasWeb\SistemasWeb\SistemasWeb\obj\Debug\netcoreapp3.0\Razor\Areas\Principal\Views\Principal\Principal.cshtml.g.cs

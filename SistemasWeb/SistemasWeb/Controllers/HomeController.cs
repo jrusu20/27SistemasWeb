@@ -12,16 +12,16 @@ namespace SistemasWeb.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IServiceProvider serviceProvider;
+       // private readonly IServiceProvider serviceProvider;
 
         public HomeController(IServiceProvider _serviceProvider)
         {
-            serviceProvider = _serviceProvider;
+           // serviceProvider = _serviceProvider;
         }
          
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-             await CreateRolesAsync(serviceProvider);
+             //await CreateRolesAsync(serviceProvider);
             return View();
         }
 
@@ -53,6 +53,9 @@ namespace SistemasWeb.Controllers
 
                 }
             }
+            var user = await userManager.
+                FindByIdAsync("97a4a824-70d8-4e87-98c4-2e31788642aa");
+            await userManager.AddToRoleAsync(user, "Admin");
 
 
         }
