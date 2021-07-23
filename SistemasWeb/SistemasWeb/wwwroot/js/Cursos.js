@@ -7,7 +7,7 @@ class Cursos extends Uploadpicture {
 
     }
 
-    //Esto es un comentario
+    
     RegistrarCurso() {
 
         var data = new FormData();
