@@ -15,7 +15,7 @@ using SistemasWeb.Models;
 namespace SistemasWeb.Areas.Categorias.Controllers
 {
     [Area("Categorias")]
-    [Authorize]
+    [Authorize(Roles ="Admin")]
     public class CategoriasController : Controller
     {
         private TCategoria _categoria;

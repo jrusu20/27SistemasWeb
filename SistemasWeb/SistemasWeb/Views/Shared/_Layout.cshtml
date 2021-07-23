@@ -1,6 +1,8 @@
 ﻿
 @using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,12 +43,20 @@
                         </li>
                         @if (SignInManager.IsSignedIn(User))
                         {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="Categorias" asp-controller="Categorias" asp-action="Categoria">Categorias</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="Cursos" asp-controller="Cursos" asp-action="Cursos">Cursos</a>
-                            </li>
+                            var user = await UserManager.GetUserAsync(User);
+                            var valor = await UserManager.IsInRoleAsync(user, "Admin");
+
+                            if (valor)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="Categorias" asp-controller="Categorias" asp-action="Categoria">Categorias</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="Cursos" asp-controller="Cursos" asp-action="Cursos">Cursos</a>
+                                </li>
+                            }
+
+
                         }
                         else
                         {
